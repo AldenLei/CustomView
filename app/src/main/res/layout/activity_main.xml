@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.alden.customview.MainActivity">
+
+    <com.alden.customview.RefreshButton
+        android:id="@+id/btn_refresh"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        app:refresh_btn_borderColor="#fb7299"
+        app:refresh_btn_textColor="#fb7299"
+        app:refresh_btn_borderRadius="10dp"
+        app:refresh_btn_space4TextAndIcon="10dp"
+        app:refresh_btn_iconSrc="@mipmap/tag_center_refresh_icon"
+        app:refresh_btn_text="点击刷新" />
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好，世界给你想要的"/>
+</LinearLayout>
