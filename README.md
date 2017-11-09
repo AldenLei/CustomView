@@ -1,4 +1,5 @@
 # CustomView
+## TEST TEST TEST!!!
 ### Step 1.Add it in your root build.gradle at the end of repositories:</br>
 allprojects {</br>
 		repositories {</br>
@@ -7,6 +8,6 @@ allprojects {</br>
 		}</br>
 	}</br>
 ### Step 2. Add the dependency</br>
- dependencies {</br>
-	        compile 'com.github.AldenLei:CustomView:1'</br>
+dependencies {</br>
+ 	compile 'com.github.AldenLei:CustomView:1'</br>
 }</br>
